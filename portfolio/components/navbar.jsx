@@ -19,10 +19,12 @@ function Navbar() {
        <Spacer />
 
        <Center>
+       <Link href={"https://github.com/dipti1144"} target="_blank" >
           <Avatar
           size={"sm"}
           src={"https://avatars.githubusercontent.com/u/105965074?v=4"}
           />
+          </Link>
        </Center>
 
     </HStack>
