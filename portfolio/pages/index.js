@@ -44,14 +44,14 @@ export const user={
 
 export default function Home({projects}) {
   return (
-   <div>
+   <div className={styles.container} >
      <Head>
       <title>portfolio</title>
      </Head>
      <main className={styles.main} >
-         <Box>
-            <Grid templateColumn={{
-              base: "repear(1,1fr)",
+         <Box w={"100%"} p={"10px"} >
+            <Grid templateColumns={{
+              base: "repeat(1,1fr)",
               md: "repeat(2, 30% 70%)",
               lg: "repeat(3, 30%,70%)",
             }} >

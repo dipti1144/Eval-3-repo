@@ -4,11 +4,11 @@ import Education from '../pages/education'
 
 function Educationcart(user) {
   return (
-    <Box w={"100%"} p={"10px"} >
+    <Box w={"40%"} p={"10px"}  >
         <Heading as={'h1'} >Education</Heading>
-        <Stack>
-            <Heading size={"md"} >Eduaction</Heading>
-            <Text>{user.company}</Text>
+        <Stack mt="10px" border={"1px solid gray"} >
+            <Heading size={"md"}  >Eduaction</Heading>
+            <Text>FullStack web developer : {user.company}</Text>
             <Text>BA program : Delhi University</Text>
         </Stack>
     </Box>

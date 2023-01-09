@@ -1,3 +1,4 @@
+import { Box } from '@chakra-ui/react'
 import React from 'react'
 import Educationcart from '../components/educationcart'
 import {user} from "./index"
@@ -5,7 +6,9 @@ import {user} from "./index"
 
 function Education() {
   return (
+    
     <Educationcart {...user} />
+    
   )
 }
 
